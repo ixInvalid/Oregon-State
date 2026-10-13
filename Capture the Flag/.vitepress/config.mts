@@ -18,7 +18,8 @@ export default defineConfig({
           text: '2026-2027 Solutions',
           collapsed: false,
           items: [
-            { text: 'beaver_trees', link: '/solutions/2026-2027/beaver-trees' }
+            { text: 'beaver_trees', link: '/solutions/2026-2027/beaver-trees' },
+            { text: 'sw-elevator', link: '/solutions/2026-2027/sw-elevator' }
           ]
         }
       ]

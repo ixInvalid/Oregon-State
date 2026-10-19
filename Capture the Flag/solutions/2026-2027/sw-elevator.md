@@ -41,7 +41,7 @@ Along the way, two flags are located in the filesystem root (`/`):
 ### Level 1 -> Level 2: Recursive Text Search
 - **Hint/README:** *"linux gives u tons of tools to run around directories like you're a little monkey and they're trees"*
 - **Solution:**
-  The directory contains nested subdirectories (`bnaoos2z/`, `g0bra55i/`). Recursively search for matching credential terms:
+  Directory contains nested subdirectories (`bnaoos2z/`, `g0bra55i/`). Recursively search for matching credential terms:
   ```bash
   grep -r "user" bnaoos2z/
   grep -r "pass" bnaoos2z/
@@ -92,7 +92,7 @@ Along the way, two flags are located in the filesystem root (`/`):
 ### Level 5 -> Level 6: Handling Whitespace and Shell Metacharacters
 - **Hint/README:** *"filename is weird! can u read it anyway?"*
 - **Solution:**
-  The target file path contains spaces and an exclamation mark: `look in here/creds in here!`. Escape the special characters or enclose the path in quotes:
+  Target file path contains spaces and an exclamation mark: `look in here/creds in here!`. Escape the special characters or enclose the path in quotes:
   ```bash
   cat look\ in\ here/creds\ in\ here\!
   ```
@@ -148,7 +148,7 @@ cat /flag_1.txt
   ```bash
   ps aux | grep "pass"
   ```
-  Process line output:
+  Process Line Output:
   ```text
   runuser -u level8_54848 -- nohup /home/level8_54848/server.sh --username=level9_54848 --password=c91b82
   ```
@@ -158,7 +158,7 @@ cat /flag_1.txt
 
 ### Level 9 -> Level 10: Standard Inspection
 - **Solution:**
-  Read the credential file directly:
+  Exit vim via `:q` and then read the credential file directly:
   ```bash
   cat creds_level10.txt
   ```

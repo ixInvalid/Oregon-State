@@ -19,7 +19,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'beaver_trees', link: '/solutions/2026-2027/beaver-trees' },
-            { text: 'sw-elevator', link: '/solutions/2026-2027/sw-elevator' }
+            { text: 'sw-elevator', link: '/solutions/2026-2027/sw-elevator' },
             { text: 'secure-secrets', link: '/solutions/2026-2027/secure-secrets' }
 
           ]
